@@ -24,6 +24,8 @@
               "src/assets"
             ],
             "styles": [
+              
+              "src/theahotel.scss",
               "src/styles.css"
             ],
             "scripts": []

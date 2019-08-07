@@ -1,0 +1,20 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($theahotel) {
+
+    $primary: map-get($theahotel, primary);
+    $primary: map-get($theahotel, accent);
+
+
+//Put all your theming styles here
+
+    .navtabs-container {
+        background-color: mat-color($theahotel-primary, 300);
+    }
+    
+    .mat-tab-links {
+        justify-content: center;
+    }
+    
+}
+
